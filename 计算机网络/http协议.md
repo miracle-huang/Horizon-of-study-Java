@@ -8,8 +8,7 @@ HTTP 超文本传输协议 Hyper Text Transfer Protocol
 ### 屏蔽底层
 http是一个运行在**应用层**的上层协议。
 我们在**屏蔽底层的情况下**， 可以认为两台计算机是依据http协议交互的。
-![屏蔽底层进行交互](https://upload-images.jianshu.io/upload_images/21824483-d61f4cca6548a754.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+!["屏蔽底层进行交互"](https://upload-images.jianshu.io/upload_images/21824483-d61f4cca6548a754.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 "屏蔽底层进行交互")
 ### 从浏览器角度进行分析
 1. 分析出url, 分离请求的地址, 端口 服务器内部路径
 2. 分析出请求方式
