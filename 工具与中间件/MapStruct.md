@@ -125,7 +125,7 @@ public interface PersonConverter {
 ```
 @Mapping(target = "stringConstant", constant = "Constant Value")
 ```
-###多对一
+### 多对一
 MapStruct 可以将几种类型的对象映射为另外一种类型，比如将多个 DO 对象转换为 DTO
 例子：
 - 两个 DO 对象 Item 和 Sku，一个 DTO 对象 SkuDTO
@@ -174,10 +174,10 @@ public interface ItemConverter {
     SkuDTO domain2dto(Item item, Sku sku);
 }
 ```
-#Mapper 编译
+# Mapper 编译
 当你的应用编译后。你会在编译后的目录比如 maven是 `target\generated-sources\annotations` 下的子目录发现生成了一个实现类。
-#进阶操作
-###格式化操作
+# 进阶操作
+### 格式化操作
 处理数字格式化的操作，遵循java.text.DecimalFormat的规范:
 ```
 @Mapping(source = "price", numberFormat = "$#.00")
