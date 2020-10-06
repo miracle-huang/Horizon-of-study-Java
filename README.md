@@ -12,7 +12,7 @@
 [通用映射工具MapStruct](https://github.com/miracle-huang/Horizon-of-study-Java/blob/master/%E5%B7%A5%E5%85%B7%E4%B8%8E%E4%B8%AD%E9%97%B4%E4%BB%B6/MapStruct.md)
 
 ## Dubbo分布式架构
-
+[微服务简介](https://github.com/miracle-huang/Horizon-of-study-Java/blob/master/Dubbo%E5%88%86%E5%B8%83%E5%BC%8F%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.md)
 
 
 ## 读书笔记
