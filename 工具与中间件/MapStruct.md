@@ -187,7 +187,7 @@ public interface ItemConverter {
  @IterableMapping(dateFormat = "dd.MM.yyyy")
  List<String> stringListToDateList(List<Date> dates);
 ```
-###使用Java表达式
+### 使用Java表达式
 使用`LocalDateTime` 作为当前的时间值注入 `addTime` 属性中。
 首先在`@org.mapstruct.Mapper `的` imports `属性中导入` LocalDateTime`，该属性是数组意味着你可以根据需要导入更多的处理类：
 ```
